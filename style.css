@@ -13,6 +13,7 @@ body {
      /* #f0f0f0; */
 }
 
+@media (max-width: 600px){
 .event {
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -22,6 +23,7 @@ body {
     padding: 20px;
     border-radius: 10px;
   }
+ }
   
   .title {
     font-size: 24px;
