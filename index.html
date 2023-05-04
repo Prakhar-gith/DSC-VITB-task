@@ -57,6 +57,40 @@
             
         
     </div>
+    
+    <div>
+              <p>Countdown: <span id="countdown"></span></p>
+              <script> // Set the date and time to count down to
+                var countDownDate = new Date("May 14, 2023 12:00:00").getTime();
+                
+                // Update the countdown every second
+                var countdownTimer = setInterval(function() {
+                
+                  // Get the current time
+                  var now = new Date().getTime();
+                
+                  // Calculate the distance between now and the countdown date
+                  var distance = countDownDate - now;
+                
+                  // Calculate the remaining time
+                  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+                  // Update the HTML on the page with the remaining time
+                  document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+                  + minutes + "m " + seconds + "s ";
+                
+                  // If the countdown is finished, display "Expired" on the page
+                  if (distance < 0) {
+                    clearInterval(countdownTimer);
+                    document.getElementById("countdown").innerHTML = "Expired";
+                  }
+                }, 1000);
+                </script>
+        
+    </div>
     <div class="footer">
         <h1 class="heading">For more details</h1>
         <h1 class="heading">Contact Us:</h1>
