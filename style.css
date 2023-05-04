@@ -12,7 +12,6 @@ body {
     overflow: auto;
      /* #f0f0f0; */
 }
-
 @media (max-width: 600px){
 .event {
     font-family: Arial, sans-serif;
@@ -23,8 +22,7 @@ body {
     padding: 20px;
     border-radius: 10px;
   }
- }
-  
+}
   .title {
     font-size: 24px;
     font-weight: bold;
@@ -107,6 +105,7 @@ body {
     margin-top: 5px;
 }
 
+@media (max-width: 600px){
 .event-buttons {
     display: flex;
     flex-wrap: wrap;
@@ -114,7 +113,7 @@ body {
     align-items: center;
     margin-top: 20px;
 }
-
+}
 .event-button {
     width: 200px;
     padding: 15px;
@@ -320,29 +319,27 @@ body {
     color: rgb(197, 57, 57);
   }
 
-/*
-.circle {
-    width: 200px;
+  .circle {
+    width:m 300px;
     height: 150px;
     border-radius: 10%;
-    background-color: blue; 
+    /* background-color: blue; */
     margin: auto;
     animation: bounce 2s ;
   }
   
   @keyframes bounce {
-    /*Start from the bottom
+    /* Start from the bottom */
     0% {
       transform: translateY(0);
     }
-    /*Move to the middle
+    /* Move to the middle */
     5% {
       transform: translateY(-100px);
     }
-    return to the bottom
+    /* Return to the bottom */
     100% {
       transform: translateY(0);
     }
   }
-*/
 /* </style> */
