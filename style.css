@@ -13,6 +13,31 @@ body {
      /* #f0f0f0; */
 }
 
+.event {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: rgb(159, 184, 193);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .speaker {
+    font-size: 18px;
+    font-style: italic;
+  }
+  
+  .details {
+    list-style-type: none;
+  }
+
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -253,4 +278,43 @@ body {
 .event-button-more {
     background-color: #7fa9d7; /* Blue */
 }
+
+/* .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .contact {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(197, 53, 53);
+    background-color: #00000000;
+    padding: 10px;
+  } */
+
+  .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .contact {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+  }
+  
+  .heading {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(197, 57, 57);
+  }
 /* </style> */
