@@ -12,6 +12,14 @@ body {
     overflow: auto;
      /* #f0f0f0; */
 }
+
+.new{
+    background-color: rgb(159, 184, 193);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 @media (max-width: 600px){
 .event {
     font-family: Arial, sans-serif;
